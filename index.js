@@ -14,6 +14,12 @@
 // const newObj ={...restOfData}
 // console.log(newArr);
 // console.log(newObj);
+
+
+// function showlaptop ({ram,hard,cpu}){
+//   console.log(`Your Laptop Has ram of ${ram} 
+//   and hard of ${hard} and cpu With ${cpu}`)
+// }
 // function showlaptop ({ram,hard,cpu}){
 //   console.log(`Your Laptop Has ram of ${ram} 
 //   and hard of ${hard} and cpu With ${cpu}`)
@@ -31,5 +37,13 @@
 //   cpu:"corei5"
 
 // }
-// const {ram,hard,cpu} =laptop1;
+// // const {ram,hard,cpu} =laptop1;
 //  showlaptop(laptop2);
+
+
+// Math.max 
+const numbers = [12,4,145,478,495,145,0,100]
+console.log(numbers)
+
+console.log(...numbers)
+console.log(Math.max(...numbers));
